@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+#geo {
+  padding: 12px;
+  border: 1px solid rgb(32, 99, 86);
+  border-radius: 5px;
+  margin: 5px;
+}
+.btn {
+  padding: 12px;
+  width: 140px;
+  color: white;
+  background-color: rgb(32, 99, 86);
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  padding: 16px;
+  width: 144px;
+  color: white;
+  background-color: rgb(148, 42, 114);
+  border: none;
+  border-radius: 5px;
+}
+
+.map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 30px rgb(30, 99, 95);
+}
